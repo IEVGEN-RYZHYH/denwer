@@ -1,0 +1,182 @@
+body{
+	margin: 0;
+	padding:0;
+	color: #000;
+	text-align:center;
+	}
+
+#wrapper{
+	width:1300px;
+	height:1400px;
+	border:none;
+/* 	background-image:url(../img/portfolio.jpg); */
+	background-repeat: no-repeat;
+	background-color:#f9f6ea;
+	display:inline-block;
+}
+#header{
+	background-image:url(../img/headerBg.png); 
+	background-repeat: no-repeat;
+	height:131px;
+	width:100%;
+	font:100% arial,sans-serif;
+	font-weight:bold;
+	margin-bottom:-16px;
+	border-top:1px solid #264e4e;
+	overflow:hidden;
+}
+#menu a{
+	text-decoration: none;
+	color: white;
+	padding-left:18px;
+}
+#menu a:hover{
+	text-decoration: underline;
+	color: #ffc600;
+	}
+#menu{
+	float:right;
+	font:11px/8px arial,sans-serif;
+	font-weight:bold;
+	color:white;
+	text-align:left;
+	margin-right:163px;
+	padding-top:59px;
+	float:right;
+	
+}
+#main{
+	width:978px;
+	height:1099px;
+	background-color:white;
+	font:100% arial,sans-serif;
+	font-weight:bold;
+	text-align:left;
+	padding-top:15px;
+	display:inline-block;
+	border:1px solid #eeeadc;
+	margin-bottom:10px;
+
+}
+#content{
+/* 	background-color:Lime;
+	opacity:0.4; */
+	height:1090px;
+	width:643px;
+	text-align:center;
+	font:20px/18px arial,sans-serif;
+	font-weight:bold;
+	text-align:left;
+	padding:11px 0px 0px 15px;
+}
+	#portfolio{
+		background-color:#fdfbf1;
+		height:1013px;
+		width:618px;
+		text-align:left;
+		margin-top:24px;
+		padding:8px;
+		color:black;
+		border:1px solid #ededed;
+		}
+		#content-box{
+				width:100%-20px;
+				height:100%;
+				color:black;
+				font:11px/20px arial,sans-serif;
+				margin-bottom:0px;
+				border:1px solid #ededed;
+				background-color:white;
+				padding:0 10px 0 10px;
+
+		}
+			.projects {
+				width:100%-20px;
+				height:294px;
+				color:black;
+				font:11px/20px arial,sans-serif;
+				padding-top:9px;
+				margin-bottom:22px;
+				border-bottom:1px solid red;
+				border-top:1px solid white;
+				overflow:hidden;
+			}
+			.projects img{
+				float:right;
+				margin-left:15px;
+
+			}
+			.projects p{
+				margin-left:6px;
+				}
+			.projects b{
+				font:11px/20px arial,sans-serif;
+				font-weight:bold;
+				}
+				.projects button{
+				top:20px;
+				float:right;
+				border:1px solid #dbd6c6;
+				margin:0px;
+				font:14px arial,sans-serif;
+				font-weight:bold;
+				padding:7px 16px;
+				}
+				.projectTitle{
+					margin-top: 8px;
+					margin-bottom: 31px;
+					margin-left:3px;
+					padding-left:0px;
+					font:36px arial,sans-serif;
+					font-weight:bold;
+					}	
+#sidebar{
+	margin-left:0px;
+	width:320px;
+	height:578px;
+	text-align:center;
+	font:100% arial,sans-serif;
+	font-weight:bold;
+	float:right;
+	padding-top:10px;
+	text-align:left;
+}
+	#sidebarTitle{
+				font:20px/10px arial,sans-serif;
+				font-weight:bold;
+				padding-left:3px;
+	}
+#footer{
+	height:158px;
+	width:978px;
+	display:inline-block;
+	padding-top:4px;
+}
+#footerLogo{
+	float:left;
+	text-align:left;
+	font:14px Myriad Pro,arial,sans-serif;
+	color:black;
+	padding-left:18px;
+}
+#copyright{
+	float:right;
+	text-align:right;
+	font:10.65px/7px arial,sans-serif;
+	color:black;
+	padding-right:17px;
+	padding-top:5px;
+}
+#logo{
+	width:227px;
+	height:29px;
+	background-image:url(../img/logo.png);
+	background-repeat: no-repeat;
+	text-align:left;
+	margin-left:156px;
+	margin-top:52px;
+	float:left;
+}
+
+
+

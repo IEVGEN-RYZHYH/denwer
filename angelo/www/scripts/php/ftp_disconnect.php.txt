@@ -1,0 +1,8 @@
+
+ftp_close($con_id);
+}
+else{
+echo "<center>Заполните форму</center>";
+};
+
+?>

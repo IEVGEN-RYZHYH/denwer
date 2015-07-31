@@ -1,0 +1,61 @@
+body{
+	margin: 0;
+	padding:0;
+	color: #000;
+	text-align:center;
+	}
+img, p, h1, h2, h3,h4, input,textarea{
+	padding:0;
+	margin:0;	
+}
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td,  
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code,  
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+  vertical-align: baseline;
+  font-family: inherit;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  outline: 0; }
+#wrapper{
+	margin:0 auto;
+	width:600px;
+
+	text-align:left;
+
+}
+/* #text{
+	overflow:hidden;
+}
+#img{
+	height:150px;
+	width:300px;
+	background-color:red;
+	float:right;
+	text-align:center;
+}
+#img:hover{
+		height:100%;
+	width:300px;
+}
+#img p {font:bold 20px Tahoma, serif;color:blue; margin:50px 0 0 0 ;} */
+
+.clearfix:after{
+	content:"";
+	display:table;
+	clear:both;
+	}
+.prnt{
+	background-color:green;
+
+}
+.block1{float:left;
+	height:150px;
+	width:200px;
+	border:2px solid #ccc;}
+.block2{float:right;
+	height:150px;
+	width:200px;
+	border:2px solid #ccc;
+}

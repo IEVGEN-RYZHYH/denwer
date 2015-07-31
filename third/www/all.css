@@ -1,0 +1,133 @@
+body{
+	margin: 0;
+	padding:0;
+	color: #000;
+}
+
+a{
+	text-decoration: none;
+	color: #000;
+}
+a:hover{text-decoration: none;}
+#wrapper{
+	height:5632px;
+	width:1903px;
+	border:none;
+	background-image:url(img/03.png);
+	background-repeat: no-repeat;
+}
+#header{
+	background-color:DeepSkyBlue;
+	width:100%;
+	text-align:center;
+	font:100% arial,sans-serif;
+	font-weight:bold;
+	color:red;
+	opacity:0.8;
+}
+#topMenu{
+	background-color:green;
+	height:2.6em;
+	width:52%;
+	margin-left:24%;
+	margin-right:24%;
+	opacity:0.8;
+	text-align:center;
+	font:100% arial,sans-serif;
+	font-weight:bold;
+	color:red;
+}
+#logo{
+	background-color:grey;
+	height:4em;
+	width:100%;
+	text-align:center;
+	font:100% arial,sans-serif;
+	font-weight:bold;
+	color:red;
+	opacity:0.8;
+}
+#mainMenu{
+	background-color:yellow;
+	height:1.8em;
+	width:100%;
+	text-align:center;
+	font:100% arial,sans-serif;
+	font-weight:bold;
+	color:red;
+	opacity:0.8;
+}
+#main{
+	width:52%;
+	margin-left:24%;
+	margin-right:24%;
+	background-color:pink;
+	height:250em;
+	text-align:center;
+	font:100% arial,sans-serif;
+	font-weight:bold;
+	color:red;
+	opacity:0.8;
+	text-align:left;
+	padding-top:1%;
+}
+#content{
+	width:65%;
+	margin-left:0.5em;
+	margin-right:0.5em;
+	background-color:blue;
+	height:250em;
+	text-align:center;
+	font:100% arial,sans-serif;
+	font-weight:bold;
+	color:red;
+	opacity:0.8;
+	display:inline-block;	
+}
+#sidebar{
+	margin-left:0.5em;
+	margin-right:0.5em;
+	width:31%;
+	background-color:green;
+	height:150em;
+	text-align:center;
+	font:100% arial,sans-serif;
+	font-weight:bold;
+	color:red;
+	opacity:0.8;
+	display:inline-block;
+}
+#photoGallery{
+	background-color:DarkTurquoise;
+	height:32.5em;
+	width:52%;
+	margin-left:24%;
+	margin-left:24%;
+	opacity:0.8;
+	text-align:center;
+	font:100% arial,sans-serif;
+	font-weight:bold;
+	color:red;
+}
+#videoGallery{
+	background-color:Purple;
+	height:34.8em;
+	width:52%;
+	margin-left:24%;
+	margin-right:24%;
+	opacity:0.8;
+	text-align:center;
+	font:100% arial,sans-serif;
+	font-weight:bold;
+	color:red;
+}
+#footer{
+	background-color:green;
+	height:25.1em;
+	width:100%;
+	text-align:center;
+	font:100% arial,sans-serif;
+	font-weight:bold;
+	color:red;
+	opacity:0.8;
+}

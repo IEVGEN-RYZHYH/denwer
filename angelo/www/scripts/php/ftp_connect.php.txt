@@ -1,0 +1,24 @@
+<?php 
+$filep = $_FILES['userfile']['tmp_name']; 
+$ftp_server = $_POST['server'];
+$ftp_user_name = $_POST['user'];
+$ftp_user_pass = $_POST['password'];
+$paths = $_POST['pathserver'];
+//имя файла на сервере после того, как вы его загрузите
+$name = $_FILES['userfile']['name'];
+$check = $filep;
+if($check){
+
+	$con_id = ftp_connect($ftp_server) or die("<center><font style=\"12pt/10pt sans-serif;color:red;\">Cервер не отвечает!</font></center>");
+
+	// входим при помощи логина и пароля
+	$login_result = ftp_login($con_id, $ftp_user_name, $ftp_user_pass);
+// проверяем подключение
+		if ((!$con_id) || (!$login_result)) {
+			   echo "<font style=\"12pt/10pt sans-serif;color:red;\">Внимание! Соединение сброшено!";
+			   echo "Попытка соединения с <b>$ftp_server</b> пользователем: <b>$ftp_user_name</b>
+			   была прервана.Проверьте правильность ввода данных!</font>";
+			   exit;
+		   } else {
+			   echo "<center>Соединение с  <font style=\"12pt/10pt sans-serif;color:LimeGreen;\"><b><u>ftp://$ftp_server</u></b></font> ,   пользователем: <font style=\"12pt/10pt sans-serif;color:LimeGreen;\"><b><u>$ftp_user_name</u></b></font> установлено <br>";
+		   };

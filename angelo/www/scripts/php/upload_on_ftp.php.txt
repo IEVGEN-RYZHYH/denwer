@@ -1,0 +1,10 @@
+
+$upload = ftp_put($con_id, '/part0/x1/downloads/'.$paths.'/'.$name, $filep, FTP_BINARY);
+// провер€ем статус загрузки
+if (!$upload) {
+       echo "Error: FTP upload has failed!</center>";
+   } else {
+       echo "”спешно загружено: <font style=\"12pt/10pt sans-serif;color:MediumBlue;\"><b>$name</b></font> на $ftp_server</center>";
+   };
+   set_time_limit(300);
+   

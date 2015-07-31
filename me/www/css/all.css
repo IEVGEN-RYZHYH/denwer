@@ -1,0 +1,69 @@
+body{
+	margin: 0;
+	padding:0;
+	color: #000;
+	text-align:center;
+	}
+ul, li,img, p, h1, h2, h3,h4, input,textarea,span{
+	padding:0;
+	margin:0;	
+}
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td,  
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code,  
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+  vertical-align: baseline;
+  font-family: inherit;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  outline: 0; }
+  
+#wrapper{
+	margin:0 auto;
+
+}
+#header {text-align:left;}
+#header ul {list-style:none; height:300px;	background-color:black;}
+#header ul li{display:inline-block;text-align:center;}
+#header ul li a{text-decoration:none;color:#fff582;}
+li[num="1"]{margin:20px 40px 0 70px;}
+#header ul li a span{font:bold 20px Tahoma, serif;margin:0px 0 0 0px;background:url(../img/bg.png) no-repeat;padding:15px 0px;}
+#header ul li a img {opacity:1;}
+
+#header ul li a img:hover{
+	width:500px;
+	height:600px;
+	z-index:12;
+	position:relative;
+	left:0px;
+	opacity:1;
+	z-index:100;
+
+}
+#some-box{
+	width:100%;
+	height:300px;
+	background-color:grey;
+	position:relative;
+	top:-70px;
+	opacity:0.4;
+}
+#some-box:hover{height:700px;top:-160px;}
+#some-box2:hover{height:700px;top:-400px}
+#some-box2{
+	width:100%;
+	height:300px;
+	background-color:#eda150;
+	position:relative;
+	top:-170px;
+	opacity:0.1;
+}
+#some-box3{
+	width:100%;
+	height:300px;
+	background-color:black;
+	position:relative;
+	top:-255px;
+	opacity:1;
+}
